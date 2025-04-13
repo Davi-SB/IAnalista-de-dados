@@ -14,7 +14,7 @@ if st.sidebar.button("Limpar sessão", use_container_width=True):
     st.session_state.clear()
 st.sidebar.link_button("Feito por Davi Brilhante", "https://github.com/Davi-SB/", type='tertiary')
 
-st.header("📊 IAnalista de Dados 📊")
+st.header("IAnalista de Dados 📊")
 st.divider()
 st.markdown("#### **Seja bem-vindo ao *`IAnalista`*!**")
 st.markdown("#### **Aqui você pode fazer perguntas sobre os `dados` e obter `respostas` em tempo real.**")
