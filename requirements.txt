@@ -1,6 +1,1 @@
-streamlit
-pandas
 openai
-time
-io
-dotenv

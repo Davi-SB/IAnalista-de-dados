@@ -1,6 +1,6 @@
 import openai
 import pandas as pd
-from dotenv import load_dotenv, find_dotenv
+# from dotenv import load_dotenv, find_dotenv
 import streamlit as st
 import time
 from io import BytesIO  # Importa BytesIO para trabalhar com a imagem em memória
