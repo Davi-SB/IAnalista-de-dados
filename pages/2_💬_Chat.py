@@ -69,7 +69,7 @@ if st.session_state.dataset is None:
         st.markdown("#")
         st.caption("Quer um dataset para testar? Escolha um dos exemplos disponíveis para enviar para seu agente!")
         col1 , col2 = st.columns(2)
-        button_netflix = col1.button("Dataset com o catálogo da Netflizx", use_container_width=True)
+        button_netflix = col1.button("Dataset com o catálogo da Netflix", use_container_width=True)
         button_spotify = col2.button("Dataset com músicas do Spotify", use_container_width=True)
         if button_netflix:
             try:
