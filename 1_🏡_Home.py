@@ -4,7 +4,7 @@ st.set_page_config(
     page_title="IAnalista de Dados", # seta o título da aba
     layout="wide",                   # ocupa o espaço centralizado na tela
     page_icon=":bar_chart:",         # seta o ícone da aba
-    initial_sidebar_state="expanded" # inicia a sidebar aberta
+    initial_sidebar_state="collapsed" # inicia a sidebar aberta
 )
 
 if 'api_key' not in st.session_state:
